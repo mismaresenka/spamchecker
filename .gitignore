@@ -1,0 +1,38 @@
+# --- Virtual Environment ---
+# Never commit your virtual environment folder
+myenv/
+venv/
+.venv/
+env/
+.env
+
+# --- Python Cache ---
+# These are compiled Python files that are generated automatically
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Trained Models & Data ---
+# Commit the code to *create* the model, not the model file itself
+# Model files can be large and are generated artifacts.
+*.joblib
+
+# For large datasets. Uncomment the line below if your CSV is large (> 50MB)
+# spam.csv
+
+# --- IDE & Editor Folders ---
+# User-specific settings for editors like VSCode or PyCharm
+.vscode/
+.idea/
+
+# --- Operating System Files ---
+# Junk files created by macOS and Windows
+.DS_Store
+Thumbs.db
+
+# --- Distribution / Build Artifacts ---
+# Common for packaging Python projects
+dist/
+build/
+*.egg-info/
